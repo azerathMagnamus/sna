@@ -53,7 +53,8 @@ function drawsnow(abubble) {
   circle(abubble.x, abubble.y, abubble.r, "fill");
 }
 function movesnow(abubble) {
-  abubble.y += randomint(1, 5);
+  speed = randomint(1, 5);
+  abubble.y += speed;
 }
 
 function position(abubble) {
